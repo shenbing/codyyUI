@@ -1,0 +1,33 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------修改密码--------------------------------------------------------#
+个人账号_修改密码_a:
+    linktext:"修改密码"
+    desc:"修改密码"
+    
+修改密码_原密码_input:
+    name:"oldpassword"
+    desc:"原密码"
+    
+修改密码_新密码_input:
+    name:"newpassword"
+    desc:"新密码"
+    
+修改密码_确认新密码_input:
+    name:"newpassword2"
+    desc:"确认新密码"
+    
+修改密码_修改_input:
+    css:"#pswEdit > ul > li:nth-child(4) > input"
+    desc:"修改"
+    
+修改密码_修改结果信息_span:
+    css:"div > div > div > span"
+    desc:"修改结果信息"
+    
+修改密码_原密码错误提示_i:
+    id:"oldpsdtip"
+    desc:"原密码错误提示"
+    
+修改密码_两次输入的密码不一致错误提示_i:
+    id:"cnewpsdtip"
+    desc:"两次输入的密码不一致错误提示"

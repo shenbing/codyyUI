@@ -1,0 +1,331 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------资源审核--------------------------------------------------------#
+资源管理_资源审核_a:
+    linktext:"资源审核"
+    desc:"资源审核"
+    
+资源审核_省电教馆_a:
+    linktext:"省电教馆"
+    desc:"省电教馆"
+    
+资源审核_市电教馆_a:
+    linktext:"市电教馆"
+    desc:"市电教馆"
+    
+资源审核_区县电教馆_a:
+    linktext:"区县电教馆"
+    desc:"区县电教馆"
+    
+资源审核_资源名称_input:
+    id:"queryName"
+    desc:"资源名称"
+    
+资源审核_分发时间_开始_input:
+    css:"#searchForm > ul > li:nth-child(2) > span:nth-child(5) > input.combo-text.validatebox-text"
+    desc:"分发时间_开始"
+    
+资源审核_分发时间_结束_input:
+    css:"#searchForm > ul > li:nth-child(2) > span:nth-child(7) > input.combo-text.validatebox-text"
+    desc:"分发时间_结束"
+    
+资源审核_资源类型_input:
+    css:"#searchForm > ul > li:nth-child(3) > span > input.combo-text.validatebox-text"
+    desc:"资源类型"
+    
+资源审核_资源类型容器_div:
+    css:"body > div:nth-child(4) > div"
+    desc:"资源类型容器"
+    
+资源审核_资源类型行_div:
+    tagname:"div"
+    desc:"资源类型行"
+    
+资源审核_搜索_a:
+    css:"#searchForm > ul > li:nth-child(3) > a"
+    desc:"搜索"
+    
+资源审核_批量通过_a:
+    linktext:"批量通过"
+    desc:"批量通过"
+    
+资源审核_批量不通过_a:
+    linktext:"批量不通过"
+    desc:"批量不通过"
+    
+资源审核_资源列表_table:
+    css:"#controlContent > div.panel.datagrid > div > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"资源列表"
+    
+资源审核_资源列表行_tr:
+    tagname:"tr"
+    desc:"资源列表行"
+
+资源审核_下载_a:
+    linktext:"下载"
+    desc:"下载"
+    
+资源审核_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+资源审核_通过_a:
+    linktext:"通过"
+    desc:"通过"
+    
+资源审核_不通过_a:
+    linktext:"不通过"
+    desc:"不通过"
+    
+资源审核_推送范围_a:
+    linktext:"推送范围"
+    desc:"推送范围"
+    
+资源审核_推送范围_关闭_a:
+    linktext:"关闭"
+    desc:"关闭"
+    
+资源审核_对话框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+资源审核_资源详情_iframe:
+    id:"resourceDetailFrame"
+    desc:"资源详情iframe"
+    
+资源详情_高清_a:
+    linktext:"高清"
+    desc:"高清"
+    
+资源详情_视频_div:
+    id:"videoBox"
+    desc:"视频容器"
+    
+资源详情_关闭_a:
+    css:"body > div.panel.window > div.panel-header.panel-header-noborder.window-header > div.panel-tool > a"
+    desc:"关闭"
+    
+#--------------------------------------------------------精品课程、微课程、教学资源、轻松一刻--------------------------------------------------------#
+资源管理_精品课程_a:
+    linktext:"精品课程"
+    desc:"精品课程"
+
+资源管理_微课程_a:
+    linktext:"微课程"
+    desc:"微课程"
+    
+资源管理_教学资源_a:
+    linktext:"教学资源"
+    desc:"教学资源"
+    
+资源管理_轻松一刻_a:
+    linktext:"轻松一刻"
+    desc:"轻松一刻"
+    
+资源课程_全部_a:
+    linktext:"全部"
+    desc:"全部"
+    
+资源课程_电教馆_a:
+    linktext:"电教馆"
+    desc:"电教馆"
+    
+资源课程_学校_a:
+    linktext:"学校"
+    desc:"学校"
+    
+资源课程_学段_input:
+    css:"#searchForm > ul > li:nth-child(2) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"学段"
+    
+资源课程_学段容器_div:
+    css:"body > div:nth-child(4) > div"
+    desc:"学段容器"
+    
+资源课程_学段行_div:
+    tagname:"div"
+    desc:"学段行"
+    
+资源课程_年级_input:
+    css:"#searchForm > ul > li:nth-child(2) > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"年级"
+    
+资源课程_年级容器_div:
+    css:"body > div:nth-child(5) > div"
+    desc:"年级容器"
+    
+资源课程_年级行_div:
+    tagname:"div"
+    desc:"年级行"
+    
+资源课程_学科_input:
+    css:"#searchForm > ul > li:nth-child(2) > span:nth-child(9) > input.combo-text.validatebox-text"
+    desc:"学科"
+    
+资源课程_学科容器_div:
+    css:"body > div:nth-child(6) > div"
+    desc:"学科容器"
+    
+资源课程_学科行_div:
+    tagname:"div"
+    desc:"学科行"
+    
+资源课程_上传时间_开始_input:
+    css:"#searchForm > ul > li:nth-child(3) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"上传时间_开始"
+    
+资源课程_上传时间_结束_input:
+    css:"#searchForm > ul > li:nth-child(3) > span:nth-child(5) > input.combo-text.validatebox-text"
+    desc:"上传时间_结束"
+    
+资源课程_资源名称_input:
+    id:"queryName"
+    desc:"资源名称"
+    
+资源课程_搜索_a:
+    css:"#searchForm > ul > li:nth-child(3) > a"
+    desc:"搜索"
+    
+资源课程_批量删除_a:
+    linktext:"批量删除"
+    desc:"批量删除"
+    
+资源课程_精品课程列表_table:
+    css:"#controlContent > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"精品课程列表"
+    
+资源课程_精品课程列表行_tr:
+    tagname:"tr"
+    desc:"精品课程列表行"
+    
+资源课程_批量删除_a:
+    linktext:"批量删除"
+    desc:"批量删除"
+    
+资源课程_下载_a:
+    linktext:"下载"
+    desc:"下载"
+    
+资源课程_删除_a:
+    linktext:"删除"
+    desc:"删除"
+
+#--------------------------------------------------------题库、试卷--------------------------------------------------------#
+资源管理_题库_a:
+    linktext:"题库"
+    desc:"题库"
+    
+资源管理_试卷_a:
+    linktext:"试卷"
+    desc:"试卷"
+    
+题库试卷管理_学段_select:
+    id:"semester"
+    desc:"学段"
+    
+题库试卷管理_年级_select:
+    id:"classlevel"
+    desc:"年级"
+    
+题库试卷管理_学科_select:
+    id:"discipline"
+    desc:"学科"
+    
+题库试卷管理_习题类型_select:
+    id:"questionType"
+    desc:"习题类型"
+    
+题库试卷管理_上传时间_开始_input:
+    css:"#controlContent > div.tinySearch > form > ul > li:nth-child(2) > span:nth-child(2) > input.combo-text.validatebox-text"
+    desc:"上传时间_开始"
+    
+题库试卷管理_上传时间_结束_input:
+    css:"#controlContent > div.tinySearch > form > ul > li:nth-child(2) > span:nth-child(4) > input.combo-text.validatebox-text"
+    desc:"上传时间_结束"
+    
+题库试卷管理_试题名称_input:
+    id:"content"
+    desc:"试题名称"
+    
+题库管理_难度系数_开始_select:
+    id:"min_difficulty"
+    desc:"难度系数_开始"
+    
+题库管理_难度系数_结束_select:
+    id:"max_difficulty"
+    desc:"难度系数_结束"
+    
+题库试卷管理_搜索_a:
+    css:"#controlContent > div.tinySearch > form > ul > li:nth-child(2) > a"
+    desc:"搜索"
+    
+题库试卷管理_批量删除_a:
+    linktext:"批量删除"
+    desc:"批量删除"
+    
+题库试卷管理_题库试卷列表_table:
+    css:"#controlContent > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"题库试卷列表"
+    
+题库试卷管理_题库试卷列表行_tr:
+    tagname:"tr"
+    desc:"题库试卷列表行"
+
+题库试卷管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+题库试卷管理_下架_a:
+    linktext:"下架"
+    desc:"下架"
+    
+题库试卷管理_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+题库试卷管理_对话框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+题库试卷管理_对话框_取消_a:
+    linktext:"取消"
+    desc:"取消"
+    
+题库试卷详情_返回_a:
+    linktext:"<<返回"
+    desc:"返回"
+
+试卷详情_试题_div:
+    classname:"singleChoice"
+    desc:"试题"
+
+试卷详情_习题解析_a:
+    linktext:"习题解析"
+    desc:"习题解析"
+    
+试卷详情_知识点_a:
+    linktext:"知识点"
+    desc:"知识点"
+    
+试卷详情_点击解析视频_a:
+    linktext:"点击解析视频"
+    desc:"点击解析视频"
+    
+试卷详情_下一页_a:
+    linktext:"下一页"
+    desc:"下一页"
+    
+试卷详情_上一页_a:
+    linktext:"上一页"
+    desc:"上一页"
+    
+试卷详情_首页_a:
+    linktext:"首页"
+    desc:"首页"
+    
+试卷详情_末页_a:
+    linktext:"末页"
+    desc:"末页"
+    
+视频点播_关闭_a:
+    classname:"dialog_close"
+    desc:"关闭"

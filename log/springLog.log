@@ -1,0 +1,55 @@
+2018-03-10 15:17:52 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-03-10 15:17:52 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-03-10 15:17:56 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-03-10 15:17:56 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：64.0.3282.140
+2018-03-10 15:18:57 [com.coddy.spring.Browser]-[INFO] 页面加载等待10秒
+2018-03-10 15:20:15 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-03-10 15:20:15 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-03-10 15:20:18 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-03-10 15:20:18 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：64.0.3282.140
+2018-03-10 15:21:05 [com.coddy.spring.Browser]-[INFO] 页面加载等待10秒
+2018-03-10 15:21:06 [com.coddy.spring.Browser]-[INFO] **********浏览器关闭!执行结束!**********
+2018-03-10 15:25:27 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-03-10 15:25:27 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-03-10 15:25:30 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-03-10 15:25:30 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：64.0.3282.140
+2018-03-10 15:28:05 [com.coddy.spring.Browser]-[INFO] 页面加载等待10秒
+2018-03-10 15:28:06 [com.coddy.spring.Browser]-[INFO] **********浏览器关闭!执行结束!**********
+2018-04-11 11:02:38 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-04-11 11:02:38 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-04-11 11:02:43 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-04-11 11:02:43 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：65.0.3325.181
+2018-04-11 11:02:47 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-04-11 11:03:13 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-04-11 11:03:13 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-04-11 11:03:16 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-04-11 11:03:16 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：65.0.3325.181
+2018-04-11 11:03:25 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-04-11 11:03:45 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-04-11 11:03:45 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-04-11 11:03:49 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-04-11 11:03:49 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：65.0.3325.181
+2018-04-11 11:03:57 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-04-11 11:03:58 [com.coddy.spring.Browser]-[INFO] 加载页面[http://www.test.com]
+2018-06-26 14:32:18 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-06-26 14:32:18 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-06-26 14:32:24 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-06-26 14:32:24 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：66.0.3359.181
+2018-06-26 14:32:29 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-06-26 14:32:30 [com.coddy.spring.Browser]-[INFO] 加载页面[http://www.jtljia.com]
+2018-06-26 14:34:19 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-06-26 14:34:19 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-06-26 14:34:22 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-06-26 14:34:22 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：66.0.3359.181
+2018-06-26 14:34:28 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-06-26 14:34:29 [com.coddy.spring.Browser]-[INFO] 加载页面[http://www.jtljia.com]
+2018-06-26 14:34:34 [com.coddy.spring.Browser]-[INFO] 页面加载等待5秒
+2018-06-26 14:34:35 [com.coddy.spring.Browser]-[INFO] **********浏览器关闭!执行结束!**********
+2018-06-26 14:35:03 [com.coddy.spring.Browser]-[INFO]  **********浏览器启动!开始执行!**********
+2018-06-26 14:35:03 [com.coddy.spring.Browser]-[INFO] 当前操作系统：Windows 7
+2018-06-26 14:35:05 [com.coddy.spring.Browser]-[INFO] 浏览器Chrome启动......
+2018-06-26 14:35:05 [com.coddy.spring.Browser]-[INFO] 当前执行浏览器： Chrome ,版本：66.0.3359.181
+2018-06-26 14:35:11 [com.coddy.spring.Browser]-[INFO] 页面加载等待2秒
+2018-06-26 14:35:12 [com.coddy.spring.Browser]-[INFO] 加载页面[http://www.jtljia.com]
+2018-06-26 14:35:17 [com.coddy.spring.Browser]-[INFO] 页面加载等待5秒
+2018-06-26 14:35:18 [com.coddy.spring.Browser]-[INFO] **********浏览器关闭!执行结束!**********

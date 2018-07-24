@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<页面元素>
+	<输入框 name="wd">登输入框用户名</输入框>
+	<百度一下 css="#su">百度一下</百度一下>
+	<Test css="#con-ar > div:nth-child(1) > div > div > div.opr-recommends-merge-panel.opr-recommends-merge-mbGap > div > div:nth-child(1) > div.c-gap-top-small > a">百度一下</Test>
+	<Test1 css="li.opt_relation_list_item:nth-child(6) > a:nth-child(1) > p:nth-child(1) > img:nth-child(1)">百度一下</Test1>
+</页面元素>

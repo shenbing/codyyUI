@@ -1,0 +1,69 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------在线答疑管理--------------------------------------------------------#
+答疑管理_在线答疑管理_a:
+    linktext:"在线答疑管理"
+    desc:"在线答疑管理"
+    
+在线答疑管理_所在地区_input:
+    css:"#p > table > tbody > tr:nth-child(1) > td > span:nth-child(2) > span > input.combo-text.validatebox-text"
+    desc:"所在地区"
+
+在线答疑管理_所在地区容器_ul:
+    classname:"tree"
+    desc:"所在地区容器"
+
+在线答疑管理_所在地区行_span:
+    classname:"tree-title"
+    desc:"所在地区行"
+    
+在线答疑管理_答疑名称_input:
+    name:"title"
+    desc:"答疑名称"
+    
+在线答疑管理_所在机构_input:
+    name:"orgName"
+    desc:"所在机构"
+    
+在线答疑管理_发起人_input:
+    name:"username"
+    desc:"发起人"
+    
+在线答疑管理_搜索_a:
+    id:"search"
+    desc:"搜索"
+    
+在线答疑管理_列表_table:
+    css:"#contentBox > div > div:nth-child(3) > div > div > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"列表"
+    
+在线答疑管理_列表行_tr:
+    tagname:"tr"
+    desc:"列表行"
+    
+在线答疑管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+在线答疑管理_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+查看问题_<<返回_a:
+    linktext:"<<返回"
+    desc:"返回"
+    
+查看问题_删除_a:
+    id:"submit"
+    desc:"删除"
+    
+查看问题_返回_a:
+    id:"cancel"
+    desc:"返回"
+    
+在线答疑管理_对话框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+在线答疑管理_对话框_取消_a:
+    linktext:"取消"
+    desc:"取消"

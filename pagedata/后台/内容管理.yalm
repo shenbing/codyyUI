@@ -1,0 +1,227 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------信息发布--------------------------------------------------------#
+内容管理_信息发布_a:
+    linktext:"信息发布"
+    desc:"信息发布"
+    
+信息发布_标题_input:
+    id:"infoTitleName"
+    desc:"标题"
+    
+信息发布_类型_input:
+    css:"#controlContent > div > form > ul > li:nth-child(3) > span > input.combo-text.validatebox-text"
+    desc:"类型"
+    
+信息发布_类型列表_input:
+    css:"body > div.panel.combo-p > div"
+    desc:"类型列表"
+    
+信息发布_类型行_div:
+    tagname:"div"
+    desc:"类型行"
+
+信息发布_选择接收对象_a:
+    linktext:"选择接收对象"
+    desc:"选择接收对象"
+    
+信息发布_选择接收对象_全选_input:
+    id:"checkIdAll"
+    desc:"全选"
+    
+信息发布_选择接收对象_老师_input:
+    name:"teacherid"
+    desc:"老师"
+    
+信息发布_选择接收对象_家长_input:
+    name:"parentid"
+    desc:"全选"
+    
+信息发布_选择接收对象_学生_input:
+    name:"studentid"
+    desc:"全选"
+    
+信息发布_选择接收对象_河南省_span:
+    css:"#_easyui_tree_1 > span.tree-checkbox.tree-checkbox0"
+    desc:"河南省"
+    
+信息发布_选择接收对象_确定_span:
+    css:"#win > div:nth-child(2) > div.panel.layout-panel.layout-panel-south > div > a:nth-child(1) > span > span.l-btn-text"
+    desc:"确定"
+
+信息发布_内容_iframe:
+    index:0
+    desc:"内容iframe"
+    
+信息发布_内容_body:
+    classname:"ke-content"
+    desc:"内容"
+    
+信息发布_发布_a:
+    linktext:"发布"
+    desc:"发布"
+    
+信息发布_返回_a:
+    linktext:"<<返回"
+    desc:"返回"
+    
+信息发布_图片_span:
+    css:"#controlContent > div > form > ul > li:nth-child(6) > div > div.ke-toolbar > span:nth-child(19) > span"
+    desc:"图片"
+    
+图片_本地上传_li:
+    css:"body > div.ke-dialog-default.ke-dialog > div.ke-dialog-content > div.ke-dialog-body > div > div.ke-tabs > ul > li:nth-child(1)"
+    desc:"本地上传"
+    
+图片_网络图片_li:
+    css:"body > div.ke-dialog-default.ke-dialog > div.ke-dialog-content > div.ke-dialog-body > div > div.ke-tabs > ul > li:nth-child(2)"
+    desc:"本地上传"
+    
+图片_上传文件_input:
+    name:"imgFile"
+    desc:"本地上传"
+    
+图片_图片地址_input:
+    id:"remoteUrl"
+    desc:"图片地址"
+    
+图片_图片大小宽_input:
+    id:"remoteWidth"
+    desc:"图片大小宽"
+    
+图片_图片大小高_input:
+    name:"height"
+    desc:"图片大小高"
+    
+图片_图片说明_input:
+    id:"remoteTitle"
+    desc:"图片说明"
+    
+图片_确定_a:
+    css:"body > div.ke-dialog-default.ke-dialog > div.ke-dialog-content > div.ke-dialog-footer > span.ke-button-common.ke-button-outer.ke-dialog-yes > input"
+    desc:"确定"
+    
+图片_取消_a:
+    css:"body > div.ke-dialog-default.ke-dialog > div.ke-dialog-content > div.ke-dialog-footer > span.ke-button-common.ke-button-outer.ke-dialog-no > input"
+    desc:"取消"
+
+#--------------------------------------------------------信息列表--------------------------------------------------------#
+内容管理_信息列表_a:
+    linktext:"信息列表"
+    desc:"信息列表"
+
+信息列表_信息发布_a:
+    linktext:"信息发布"
+    desc:"信息发布"
+    
+信息列表_新闻_a:
+    linktext:"新闻"
+    desc:"新闻"
+    
+信息列表_公告_a:
+    linktext:"公告"
+    desc:"公告"
+    
+信息列表_通知_a:
+    linktext:"通知"
+    desc:"通知"
+
+信息列表_信息列表_table:
+    css:"#controlContent > div > div.tabs-panels > div:nth-child(1) > div > div > div > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"信息列表"
+    
+信息列表_信息列表行_tr:
+    tagname:"tr"
+    desc:"信息列表行"
+    
+信息列表_详情_a:
+    linktext:"详情"
+    desc:"详情"
+    
+信息列表_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+列表详情_返回_a:
+    linktext:"<<返回"
+    desc:"返回"
+    
+信息列表_对话框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+信息列表_对话框_取消_a:
+    linktext:"取消"
+    desc:"取消"
+    
+#--------------------------------------------------------动态列表、动态评论列表--------------------------------------------------------#
+内容管理_动态列表_a:
+    linktext:"动态列表"
+    desc:"动态列表"
+    
+内容管理_动态评论列表_a:
+    linktext:"动态评论列表"
+    desc:"动态评论列表"
+    
+动态及评论_用户姓名_input:
+    id:"createUserRealName"
+    desc:"用户姓名"
+    
+动态及评论_动态内容关键字_input:
+    id:"contentKey"
+    desc:"动态内容关键字"
+    
+动态及评论_搜索_a:
+    linktext:"搜索"
+    desc:"搜索"
+    
+动态及评论_删除选中项_a:
+    css:"#controlContent > div > form > ul > li:nth-child(3) > div > div > div.datagrid-toolbar > table > tbody > tr > td:nth-child(2) > a"
+    desc:"删除选中项"
+    
+动态及评论_列表_table:
+    css:"#controlContent > div > form > ul > li:nth-child(3) > div > div > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"列表"
+    
+动态及评论_列表行_tr:
+    tagname:"tr"
+    desc:"列表行"
+    
+动态及评论_列表行_tr:
+    tagname:"tr"
+    desc:"列表行"
+    
+动态及评论_列表行勾选框_input:
+    tagname:"input"
+    desc:"列表行勾选框"
+    
+动态及评论_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+动态及评论_对话框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+动态及评论_对话框_取消_a:
+    linktext:"取消"
+    desc:"取消"
+    
+动态及评论_删除结果信息_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"删除结果信息"
+    
+动态及评论_查看图片_a:
+    linktext:"查看图片"
+    desc:"查看图片"
+    
+查看图片_关闭_a:
+    id:"fbPhotoSnowliftClose"
+    desc:"关闭"
+    
+查看图片_上一张_a:
+    id:"fbPhotoSnowliftPhotoPre"
+    desc:"上一张"
+    
+查看图片_下一张_a:
+    id:"fbPhotoSnowliftPhotoNext"
+    desc:"下一张"

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<project basedir="." default="sendmail" name="rrtautomation">
+	<property name="src" value="${basedir}/src" />
+	<property name="dest" value="${basedir}/classes" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="output.dir" value="${basedir}/test-output" />
+	<property name="testConf" value="${basedir}/conf" />
+	<property name="mailzip" value="${basedir}/mailzip" />
+	<property name="urlRepos"
+		value="https://10.1.10.5:8443/svn/codyy/trunk/document/测试部/对内/原有内容/测试开发工程/rrtautomation/src" />
+	<path id="path">
+		<pathelement location="lib/testng-6.8.8.jar" />
+		<pathelement location="${dest}" />
+		<pathelement location="${src}" />
+		<pathelement location="." />
+		<fileset dir="${lib.dir}/">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<property environment="env" />
+	<property name="ANT_HOME" value="${env.ANT_HOME}" />
+	<!-- <path id="svnantpath"> <pathelement location="${ANT_HOME}/lib/svnant.jar" 
+		/> <pathelement location="${ANT_HOME}/lib/svnClientAdapter.jar" /> <pathelement 
+		location="${ANT_HOME}/lib/svnjavahl.jar" /> <pathelement location="${ANT_HOME}/lib/svnkit-1.3.8.jar" 
+		/> </path> <typedef resource="org/tigris/subversion/svnant/svnantlib.xml" 
+		classpathref="svnantpath" /> <svnSetting id="svn.setting" svnkit="true" username="shenbing" 
+		password="aA111111" javahl="false" /> <target name="update"> <svn refid="svn.setting"> 
+		<export srcUrl="${urlRepos}" destPath="${basedir}/src" force="true" /> </svn> 
+		</target> -->
+	<target name="init">
+		<delete includeEmptyDirs="true">
+			<fileset dir="log" includes="**/*.log" />
+		</delete>
+		<echo>delete test output</echo>
+		<delete dir="test-output" />
+		<delete dir="classes" />
+		<delete dir="${mailzip}" />
+		<delete>
+			<fileset dir="." includes="**/*.class" />
+		</delete>
+		<mkdir dir="${dest}" />
+		<mkdir dir="${mailzip}" />
+	</target>
+	<target name="compile" depends="init">
+		<echo>compile tests</echo>
+		<javac srcdir="${src}" destdir="${dest}" encoding="GBK"
+			classpathref="path" includeantruntime="on" />
+		<copy todir="${dest}">
+			<fileset dir="${testConf}">
+			</fileset>
+		</copy>
+	</target>
+	<taskdef resource="testngtasks" classpath="lib/testng-6.8.8.jar" />
+	<target name="run_tests" depends="compile">
+		<echo>running tests</echo>
+		<testng classpathref="path" outputdir="${output.dir}"
+			haltonfailure="false" failureproperty="failed" suiteThreadPoolSize="3"
+			parallel="false" threadCount="2" useDefaultListeners="true">
+			<xmlfileset dir="${testConf}/基本功能">
+				<include name="基础数据.xml" />
+			</xmlfileset>
+			<!--<xmlfileset dir="${testConf}/基本功能"> <include name="后台独立模块基本功能.xml" 
+				/> </xmlfileset> <xmlfileset dir="${testConf}/基本功能"> <include name="省教育局厅基本功能.xml" 
+				/> </xmlfileset> <xmlfileset dir="${testConf}/基本功能"> <include name="市教育局厅基本功能.xml" 
+				/> </xmlfileset> <xmlfileset dir="${testConf}/基本功能"> <include name="区县教育局厅基本功能.xml" 
+				/> </xmlfileset> <xmlfileset dir="${testConf}/基本功能"> <include name="学校基本功能.xml" 
+				/> </xmlfileset> -->
+		</testng>
+	</target>
+
+	<!-- ==================== "beautify report" Target ===================== -->
+	<target name="beautify_report" depends="run_tests">
+		<echo>beautify report</echo>
+		<java fork="true" classname="com.coddy.utils.FileCharsetConverter">
+			<classpath path="${dest}" />
+			<arg value="${output.dir}/testng-results.xml" />
+		</java>
+		<xslt in="${output.dir}/testng-results.xml" style="${testConf}/testng-results.xsl"
+			out="${output.dir}/index.html">
+			<!-- you need to specify the directory here again -->
+			<param name="testNgXslt.outputDir" expression="${output.dir}" />
+			<classpath refid="path" />
+		</xslt>
+	</target>
+	<!-- ==================== "make file to zip" Target ===================== -->
+	<target name="make_data_zip" depends="beautify_report">
+		<echo>make mail zip</echo>
+		<delete dir="${output.dir}/old" />
+		<tstamp>
+			<format property="date" pattern="yyyy-MM-dd HH-mm" />
+		</tstamp>
+		<jar jarfile="${mailzip}/report${date}.zip" basedir="${output.dir}" />
+	</target>
+	<!-- ==================== "mail" Target ================================ -->
+	<!--put mail.jar of lib folder into $ant_home/lib -->
+	<target name="sendmail" depends="make_data_zip">
+		<echo>send mail</echo>
+		<tstamp />
+		<!--<mail messageMimeType="text/html" messagefile="${output.dir}/overview-chart.svg" 
+			tolist="shenbing@codyy.cn;zhaoruntao@codyy.cn;yangqingling@codyy.cn;fangyingui@codyy.cn" 
+			cclist="" mailhost="mail.codyy.cn" subject="人人通项目 ${date}自动化测试结果 " from="shenbing@codyy.cn" 
+			user="shenbing" password="87546"> -->
+		<mail messageMimeType="text/html" messagefile="${output.dir}/overview-chart.svg"
+			tolist="shenbing@codyy.cn,xieqigao@codyy.cn" cclist="" mailhost="mail.codyy.cn"
+			subject="人人通项目 ${date}自动化测试结果 " from="shenbing@codyy.cn" user="shenbing"
+			password="87546">
+			<fileset dir="${mailzip}">
+				<include name="**/*.zip" />
+			</fileset>
+		</mail>
+	</target>
+</project>

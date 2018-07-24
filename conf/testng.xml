@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="rrt" thread-count="2" verbose="2">
+	<!-- <test name="作业搜索"> <classes> <class name="com.coddy.testcase.TestLogin" 
+		/> <class name="com.coddy.testcase.StudentPublicNews" /> <class name="com.coddy.testcase.StudentSearchWork" 
+		/> </classes> <groups> <run> <include name="哈哈" /> </run> </groups> </test> 
+		<test name="发布动态"> <classes> <class name="com.coddy.testcase.StudentPublicNews" 
+		/> </classes> </test> -->
+	<test name="test">
+		<classes>
+			<class name="com.coddy.testcase.TestLogin"></class>
+			<class name="com.coddy.testcase.TestLogin2"></class>
+		</classes>
+	</test>
+</suite> 

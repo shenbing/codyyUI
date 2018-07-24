@@ -1,0 +1,1 @@
+1. 如果使用SikuliUtil工具类，需要安装sikuli,安装包：/lib/sikulixsetup-1.1.1.jar。安装命令：java -jar sikulixsetup-1.1.1.jar。

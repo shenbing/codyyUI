@@ -1,0 +1,53 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+
+登陆_用户名_input:
+    id:"user"
+    desc:"登陆用户名"
+    
+登陆_密码_input:
+    id:"password"
+    desc:"登陆密码"
+    
+登陆_登陆_input:
+    classname:"loginBtn"
+    desc:"登陆"
+    
+公共_系统管理_a:
+    linktext:"系统管理"
+    desc:"系统管理"
+    
+公共_机构管理_a:
+    linktext:"机构管理"
+    desc:"机构管理"
+  
+公共_用户管理_a:
+    linktext:"用户管理"
+    desc:"用户管理"
+    
+公共_基础设置_a:
+    linktext:"基础设置"
+    desc:"基础设置"
+    
+公共_资源管理_a:
+    linktext:"资源管理"
+    desc:"资源管理"
+    
+公共_答疑管理_a:
+    linktext:"答疑管理"
+    desc:"答疑管理"
+    
+公共_内容管理_a:
+    linktext:"内容管理"
+    desc:"内容管理"
+    
+公共_个人账号_a:
+    linktext:"个人帐号"
+    desc:"个人账号"
+
+公共_退出_a:
+    classname:"exitBtn"
+    desc:"退出"
+
+公共_Frame_iframe:
+    id:"targetFrame"
+    desc:"内容Frame框"

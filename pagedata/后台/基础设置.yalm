@@ -1,0 +1,203 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------基本分类--------------------------------------------------------#
+基础设置_基本分类_a:
+    linktext:"基本分类"
+    desc:"基本分类"
+    
+基本分类_添加学段_a:
+    css:"#contentBox > div:nth-child(1) > a.easyui-linkbutton.l-btn.l-btn-small"
+    desc:"添加学段"
+    
+添加学段_学段名称_input:
+    classname:"messager-input"
+    desc:"学段名称"
+    
+添加年级_年级名称_input:
+    classname:"messager-input"
+    desc:"年级名称"
+    
+基本分类_对话框_确定_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(1) > span > span"
+    desc:"确定"
+    
+基本分类_对话框_取消_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(2) > span > span"
+    desc:"取消"
+
+学段年级学科管理_列表行_tr:
+    id:"datagrid-row-r2-2-DBID"
+    desc:"学段年级学科管理列表行"
+    
+基本分类_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+学段年级学科管理_添加年级_a:
+    linktext:"添加年级"
+    desc:"添加年级"
+    
+学段年级学科管理_添加学科_a:
+    linktext:"添加学科"
+    desc:"添加学科"
+    
+学段年级学科管理_添加分册_a:
+    linktext:"添加分册"
+    desc:"添加分册"
+    
+学段年级学科管理_添加章节_a:
+    linktext:"添加章节"
+    desc:"添加章节"
+    
+基本分类_排序_tag:
+    tagname:"img"
+    desc:"排序"
+    
+添加学科_所有学科_input:
+    css:"#disciplineWin > div > div > div > div.panel.datagrid > div > div > div.datagrid-view2 > div.datagrid-header > div > table > tbody > tr > td:nth-child(1) > div > input[type=\"checkbox\"]"
+    desc:"所有学科"
+    
+添加学科_学科表_table:
+    css:"#disciplineWin > div > div > div > div.panel.datagrid > div > div > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"学科表"
+
+添加学科_学科表行_tr:
+    tagname:"tr"
+    desc:"学科行"
+    
+添加学科_确定_a:
+    css:"#disciplineWin > div > div > div > div.panel.layout-panel.layout-panel-south > div > a:nth-child(1)"
+    desc:"确定"
+
+添加学科_取消_a:
+    css:"#disciplineWin > div > div > div > div.panel.layout-panel.layout-panel-south > div > a:nth-child(2)"
+    desc:"取消"
+    
+添加分册_分册名称_input:
+    classname:"messager-input"
+    desc:"分册名称"
+    
+添加章节_章节名称_input:
+    classname:"messager-input"
+    desc:"章节名称"
+
+基本分类_学科管理_a:
+    linktext:"学科管理"
+    desc:"学科管理"
+    
+学科管理_添加学科_a:
+    css:"#contentBox > div:nth-child(1) > a.easyui-linkbutton.l-btn.l-btn-small"
+    desc:"添加学科"
+    
+学科管理_返回_a:
+    linktext:"返回"
+    desc:"返回"
+
+学科管理_列表行_tag:
+    tagname:"tr"
+    desc:"学科管理列表行"
+    
+学科管理_添加学科_学科名称_input:
+    classname:"messager-input"
+    desc:"学科名称"
+    
+#--------------------------------------------------------知识点分类--------------------------------------------------------#
+基础设置_知识点分类_a:
+    linktext:"知识点分类"
+    desc:"知识点分类"
+    
+知识点管理_学科列表行_tr:
+    id:"datagrid-row-r1-2-DBID"
+    desc:"学科列表行"
+    
+知识点管理_添加知识点_a:
+    linktext:"添加知识点"
+    desc:"添加知识点"
+    
+知识点管理_知识点列表行_tr:
+    id:"datagrid-row-r1-2-DBID"
+    desc:"知识点列表行"
+    
+知识点管理_添加子知识点_a:
+    linktext:"添加子知识点"
+    desc:"添加子知识点"
+    
+知识点管理_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+知识点管理_知识点名称_input:
+    classname:"messager-input"
+    desc:"知识点名称"
+    
+知识点管理_对话框_确定_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(1)"
+    desc:"确定"
+
+知识点管理_对话框_取消_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(2)"
+    desc:"取消"
+
+知识点分类_排序_tag:
+    tagname:"img"
+    desc:"排序"
+
+#--------------------------------------------------------资源分类--------------------------------------------------------#
+基础设置_资源分类_a:
+    linktext:"资源分类"
+    desc:"资源分类"
+    
+资源分类_精品课程_a:
+    css:"#contentBox > div:nth-child(1) > span.linktitle.sel > a"
+    desc:"精品课程"
+    
+资源分类_微课程_a:
+    linktext:"微课程"
+    desc:"微课程"
+    
+资源分类_教学资源_a:
+    linktext:"教学资源"
+    desc:"教学资源"
+    
+资源分类_轻松一刻_a:
+    linktext:"轻松一刻"
+    desc:"轻松一刻"
+    
+资源分类_试卷_a:
+    linktext:"试卷"
+    desc:"试卷"
+    
+资源分类_列表行_tr:
+    id:"datagrid-row-r1-2-DBID"
+    desc:"列表行"
+    
+资源分类_添加子类别_a:
+    linktext:"添加子类别"
+    desc:"添加子类别"
+    
+资源分类_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+资源分类_子类别名称_input:
+    classname:"messager-input"
+    desc:"子类别名称"
+    
+资源分类_对话框_确定_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(1)"
+    desc:"确定"
+    
+资源分类_对话框_取消_a:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div.messager-button > a:nth-child(2)"
+    desc:"取消"
+
+轻松一刻_添加根类别_a:
+    linktext:"添加根类别"
+    desc:"添加根类别"
+    
+轻松一刻_根类别名称_input:
+    classname:"messager-input"
+    desc:"根类别名称"
+
+资源分类_排序_tag:
+    tagname:"img"
+    desc:"排序"

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//SQL/RRT_HENAN.sql=UTF-8
+encoding//SQL/base_sql.sql=UTF-8
+encoding//conf/config.properties=GBK
+encoding//pagedata/test.xml=UTF-8
+encoding//src/com/coddy/DB/DbExcuteSqlFile.java=GBK
+encoding//src/com/coddy/DB/DbPoolUtil.java=UTF-8
+encoding//src/com/coddy/DB/DbUnit.java=UTF-8
+encoding//src/com/coddy/check/IAssert.java=UTF-8
+encoding//src/com/coddy/spring/Browser.java=GBK
+encoding//src/conf.properties=UTF-8

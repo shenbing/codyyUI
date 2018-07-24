@@ -1,0 +1,41 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+系统管理_角色管理_a:
+    linktext:"角色管理"
+    desc:"角色管理"
+    
+系统管理_管理员帐号管理_a:
+    linktext:"管理员帐号管理"
+    desc:"管理员帐号管理"
+
+创建角色_Frame_iframe:
+    id:"roleWin_frame"
+    desc:"创建角色子Frame框"
+    
+角色管理_创建角色_a:
+    linktext:"创建角色"
+    desc:"创建角色"
+    
+角色管理_角色列表行_tr:
+    tagname:"tr"
+    desc:"角色列表行"
+    
+角色管理_编辑_a:
+    linktext:"编辑"
+    desc:"编辑"
+    
+角色管理_删除_a:
+    linktext:"删除"
+    desc:"删除"
+    
+角色管理_匹配账号_a:
+    css:"#datagrid-row-r2-2-0 > td:nth-child(5) > div > a:nth-child(3)"
+    desc:"匹配账号"
+
+创建角色_状态关闭_input:
+    css:"body > div.userCount.clear.mb10.addRule > p > label:nth-child(4) > input[type=\"radio\"]"
+    desc:"状态:关闭单选"
+    
+创建角色_返回_a:
+    css:"#privilegeDov > div:nth-child(2) > a:nth-child(2)"
+    desc:"返回"
+    

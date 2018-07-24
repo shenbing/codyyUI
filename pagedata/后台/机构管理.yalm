@@ -1,0 +1,218 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------学校管理--------------------------------------------------------#
+机构管理_学校管理_a:
+    linktext:"学校管理"
+    desc:"学校管理"
+
+学校管理_省份_select:
+    id:"province"
+    desc:"省份下拉框"
+    
+学校管理_地级城市_select:
+    id:"city"
+    desc:"地级城市下拉框"
+    
+学校管理_县级城市_select:
+    id:"town"
+    desc:"县级城市下拉框"
+
+学校管理_学校名称_input:
+    id:"school"
+    desc:"学校名称"
+    
+学校管理_搜索_span:
+    classname:"l-btn-text"
+    desc:"搜索"
+    
+学校管理_学校列表_table:
+    css:"#control > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"学校列表"
+    
+学校管理_学校列表行_tr:
+    tagname:"tr"
+    desc:"学校列表行"
+
+学校管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+学校管理_锁定_a:
+    linktext:"锁定"
+    desc:"锁定"
+    
+学校管理_解锁_a:
+    linktext:"解锁"
+    desc:"解锁"
+    
+学校管理_锁定确认框_确定_a:
+    linktext:"确定"
+    desc:"确定锁定"
+    
+学校管理_锁定确认框_取消_a:
+    linktext:"取消"
+    desc:"取消锁定"
+
+学校管理_解锁确认框_确定_a:
+    linktext:"确定"
+    desc:"确定解锁"
+    
+学校管理_解锁确认框_取消_a:
+    linktext:"取消"
+    desc:"取消解锁"
+    
+学校管理_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+学校管理_锁定解锁结果提示_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(1)"
+    desc:"锁定解锁结果提示"
+    
+学校管理_学校详情_table:
+    css:"body > div:nth-child(3) > table"
+    desc:"学校详情"
+    
+学校详情_返回列表_a:
+    linktext:"返回列表"
+    desc:"返回列表"
+    
+学校详情_重置密码_a:
+    id:"resetPassword"
+    desc:"重置密码"
+
+学校详情_重置密码确认框_确定_a:
+    linktext:"确定"
+    desc:"确定重置密码"
+    
+学校详情_重置密码确认框_取消_a:
+    linktext:"取消"
+    desc:"取消重置密码"
+    
+学校详情_重置密码结果信息_center:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(1) > center"
+    desc:"重置密码结果提示"
+    
+学校详情_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+#--------------------------------------------------------厅局馆管理--------------------------------------------------------#
+机构管理_厅局馆管理_a:
+    linktext:"厅局馆管理"
+    desc:"厅局馆管理"
+
+厅局馆管理_省份_select:
+    id:"province"
+    desc:"省份下拉框"
+    
+厅局馆管理_地级城市_select:
+    id:"city"
+    desc:"地级城市下拉框"
+    
+厅局馆管理_县级城市_select:
+    id:"town"
+    desc:"县级城市下拉框"
+
+厅局馆管理_厅局馆名称_input:
+    id:"org"
+    desc:"厅局馆名称"
+    
+厅局馆管理_搜索_span:
+    classname:"l-btn-text"
+    desc:"搜索"
+    
+厅局馆管理_厅局馆列表_table:
+    css:"#control > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"厅局馆列表"
+    
+厅局馆管理_厅局馆列表行_tr:
+    tagname:"tr"
+    desc:"厅局馆列表行"
+
+厅局馆管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+厅局馆管理_锁定_a:
+    linktext:"锁定"
+    desc:"锁定"
+    
+厅局馆管理_解锁_a:
+    linktext:"解锁"
+    desc:"解锁"
+    
+厅局馆管理_锁定确认框_确定_a:
+    linktext:"确定"
+    desc:"确定锁定"
+    
+厅局馆管理_锁定确认框_取消_a:
+    linktext:"取消"
+    desc:"取消锁定"
+
+厅局馆管理_解锁确认框_确定_a:
+    linktext:"确定"
+    desc:"确定解锁"
+    
+厅局馆管理_解锁确认框_取消_a:
+    linktext:"取消"
+    desc:"取消解锁"
+
+厅局馆管理_免审核_a:
+    linktext:"免审核"
+    desc:"免审核"
+    
+厅局馆管理_恢复审核_a:
+    linktext:"恢复审核"
+    desc:"恢复审核"
+    
+厅局馆管理_免审核确认框_确定_a:
+    linktext:"确定"
+    desc:"确定免审核"
+    
+厅局馆管理_免审核确认框_取消_a:
+    linktext:"取消"
+    desc:"取消免审核"
+
+厅局馆管理_恢复审核确认框_确定_a:
+    linktext:"确定"
+    desc:"确定恢复审核"
+    
+厅局馆管理_恢复审核确认框_取消_a:
+    linktext:"取消"
+    desc:"取消恢复审核"
+
+厅局馆管理_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+厅局馆管理_锁定免审核结果提示_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(1)"
+    desc:"锁定免审核结果提示"
+    
+厅局馆管理_厅局馆详情_table:
+    css:"body > div:nth-child(3) > table"
+    desc:"厅局馆详情"
+    
+厅局馆详情_返回列表_a:
+    linktext:"返回列表"
+    desc:"返回列表"
+    
+厅局馆详情_重置密码_a:
+    id:"resetPassword"
+    desc:"重置密码"
+
+厅局馆详情_重置密码确认框_确定_a:
+    linktext:"确定"
+    desc:"确定重置密码"
+    
+厅局馆详情_重置密码确认框_取消_a:
+    linktext:"取消"
+    desc:"取消重置密码"
+    
+厅局馆详情_重置密码结果信息_center:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(1) > center"
+    desc:"重置密码结果提示"
+    
+厅局馆详情_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"

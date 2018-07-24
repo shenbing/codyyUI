@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="后台独立模块基本功能" thread-count="2" verbose="2">
+	<test name="基础设置基本功能">
+		<classes>
+			<class name="com.coddy.adminTest.BasicCategoryOperation" />
+			<class name="com.coddy.adminTest.BasicKnowledgeOperation" />
+			<class name="com.coddy.adminTest.BasicJPKCOperation" />
+			<class name="com.coddy.adminTest.BasicWKCOperation" />
+			<class name="com.coddy.adminTest.BasicJXZYOperation" />
+			<class name="com.coddy.adminTest.BasicQSYKOperation" />
+			<class name="com.coddy.adminTest.BasicSJOperation" />
+		</classes>
+	</test>
+	<test name="内容管理_信息管理基本功能">
+		<classes>
+			<class name="com.coddy.adminTest.BasicInformationOperation" />
+		</classes>
+	</test>
+	<test name="机构管理基本功能">
+		<classes>
+			<class name="com.coddy.adminTest.SchoolManage" />
+			<class name="com.coddy.adminTest.DepartmentManage" />
+		</classes>
+	</test>
+	<test name="用户管理基本功能">
+		<classes>
+			<class name="com.coddy.adminTest.TeachersManage" />
+			<class name="com.coddy.adminTest.StudentsManage" />
+			<class name="com.coddy.adminTest.ParentsManage" />
+		</classes>
+	</test>
+	<test name="个人账号基本功能">
+		<classes>
+			<class name="com.coddy.adminTest.PersonalPassword" />
+		</classes>
+	</test>
+</suite> 

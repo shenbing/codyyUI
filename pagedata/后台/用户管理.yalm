@@ -1,0 +1,376 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+#--------------------------------------------------------教师管理--------------------------------------------------------#
+
+用户管理_教师管理_a:
+    linktext:"教师管理"
+    desc:"教师管理"
+    
+教师管理_所在地区市_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"所在地区市"
+    
+教师管理_所在地区区县_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li > span:nth-child(5) > input.combo-text.validatebox-text"
+    desc:"所在地区区县"
+    
+教师管理_所在地区市列表_div:
+    css:"body > div:nth-child(7) > div"
+    desc:"所在地区市列表"
+    
+教师管理_所在地区区县列表_div:
+    css:"body > div:nth-child(8) > div"
+    desc:"所在地区区县列表"
+    
+教师管理_查询下拉列表_div:
+    tagname:"div"
+    desc:"查询下拉列表"
+    
+教师管理_学校名称_input:
+    css:"#controlContent > div > form > ul:nth-child(3) > li > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"学校名称"
+
+教师管理_学校名称列表_div:
+    css:"body > div:nth-child(4) > div"
+    desc:"学校名称列表"
+    
+教师管理_学段_input:
+    css:"#controlContent > div > form > ul:nth-child(3) > li > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"学段"
+
+教师管理_学段列表_div:
+    css:"body > div:nth-child(5) > div"
+    desc:"学段列表"
+
+教师管理_学科_input:
+    css:"#controlContent > div > form > ul:nth-child(3) > li > span:nth-child(9) > input.combo-text.validatebox-text"
+    desc:"学科"
+
+教师管理_学科列表_div:
+    css:"body > div:nth-child(6) > div"
+    desc:"学科列表"
+
+教师管理_教师姓名_input:
+    id:"name"
+    desc:"教师姓名"
+    
+教师管理_搜索_span:
+    classname:"l-btn-text"
+    desc:"搜索"
+    
+教师管理_教师列表_table:
+    css:"#control > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"教师列表"
+    
+教师管理_教师列表行_tr:
+    tagname:"tr"
+    desc:"教师列表行"
+
+教师管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+教师管理_锁定_a:
+    linktext:"锁定"
+    desc:"锁定"
+    
+教师管理_解锁_a:
+    linktext:"解锁"
+    desc:"解锁"
+    
+教师管理_锁定确认框_确定_a:
+    linktext:"确定"
+    desc:"确定锁定"
+    
+教师管理_锁定确认框_取消_a:
+    linktext:"取消"
+    desc:"取消锁定"
+
+教师管理_解锁确认框_确定_a:
+    linktext:"确定"
+    desc:"确定解锁"
+    
+教师管理_解锁确认框_取消_a:
+    linktext:"取消"
+    desc:"取消解锁"
+    
+教师管理_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+教师管理_锁定解锁结果提示_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"锁定解锁结果提示"
+    
+教师详情_返回_a:
+    linktext:"返 回"
+    desc:"返回"
+    
+教师详情_ID行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1)"
+    desc:"ID行"
+    
+教师详情_姓名行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(2)"
+    desc:"姓名行"
+    
+教师详情_重置密码_input:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1) > input"
+    desc:"重置密码"
+    
+教师详情_重置密码结果信息_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"重置密码结果信息"
+    
+教师详情_提示框_确定_span:
+    classname:"l-btn-text"
+    desc:"确定"
+    
+#--------------------------------------------------------学生管理--------------------------------------------------------#
+用户管理_学生管理_a:
+    linktext:"学生管理"
+    desc:"学生管理"
+
+学生管理_查询下拉列表_div:
+    tagname:"div"
+    desc:"查询下拉列表"
+    
+学生管理_所在地区_input:
+    css:"#controlContent > div > form > ul:nth-child(1) > li > span > input.combo-text.validatebox-text"
+    desc:"所在地区"
+    
+学生管理_所在地区列表_div:
+    css:"body > div:nth-child(4) > div"
+    desc:"所在地区列表"
+    
+学生管理_学段_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(1) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"学段"
+    
+学生管理_学段列表_div:
+    css:"body > div:nth-child(5) > div"
+    desc:"学段列表"
+
+学生管理_学校名称_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(1) > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"学校名称"
+    
+学生管理_学校名称列表_div:
+    css:"body > div:nth-child(6) > div"
+    desc:"学校名称列表"
+
+学生管理_年级_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(2) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"年级"
+    
+学生管理_年级列表_div:
+    css:"body > div:nth-child(7) > div"
+    desc:"年级列表"
+
+学生管理_班级_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(2) > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"班级地区"
+    
+学生管理_班级列表_div:
+    css:"body > div:nth-child(8) > div"
+    desc:"班级列表"
+    
+学生管理_学生姓名_input:
+    id:"name"
+    desc:"学生姓名"
+    
+学生管理_搜索_span:
+    classname:"l-btn-text"
+    desc:"搜索"
+    
+学生管理_学生列表_table:
+    css:"#control > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"学生列表"
+    
+学生管理_学生列表行_tr:
+    tagname:"tr"
+    desc:"学生列表行"
+
+学生管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+学生管理_锁定_a:
+    linktext:"锁定"
+    desc:"锁定"
+    
+学生管理_解锁_a:
+    linktext:"解锁"
+    desc:"解锁"
+    
+学生管理_锁定确认框_确定_a:
+    linktext:"确定"
+    desc:"确定锁定"
+    
+学生管理_锁定确认框_取消_a:
+    linktext:"取消"
+    desc:"取消锁定"
+
+学生管理_解锁确认框_确定_a:
+    linktext:"确定"
+    desc:"确定解锁"
+    
+学生管理_解锁确认框_取消_a:
+    linktext:"取消"
+    desc:"取消解锁"
+    
+学生管理_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+学生管理_锁定解锁结果提示_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"锁定解锁结果提示"
+    
+学生详情_返回_a:
+    linktext:"返 回"
+    desc:"返回"
+    
+学生详情_ID行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1)"
+    desc:"ID行"
+    
+学生详情_姓名行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(2)"
+    desc:"姓名行"
+    
+学生详情_重置密码_input:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1) > input"
+    desc:"重置密码"
+    
+学生详情_重置密码结果信息_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"重置密码结果信息"
+    
+学生详情_提示框_确定_span:
+    classname:"l-btn-text"
+    desc:"确定"
+    
+#--------------------------------------------------------家长管理--------------------------------------------------------#
+用户管理_家长管理_a:
+    linktext:"家长管理"
+    desc:"家长管理"
+
+家长管理_查询下拉列表_div:
+    tagname:"div"
+    desc:"查询下拉列表"
+    
+家长管理_所在地区_input:
+    css:"#controlContent > div > form > ul:nth-child(1) > li > span > input.combo-text.validatebox-text"
+    desc:"所在地区"
+    
+家长管理_所在地区列表_div:
+    css:"body > div:nth-child(4) > div"
+    desc:"所在地区列表"
+    
+家长管理_学段_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(1) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"学段"
+    
+家长管理_学段列表_div:
+    css:"body > div:nth-child(5) > div"
+    desc:"学段列表"
+
+家长管理_学校名称_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(1) > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"学校名称"
+    
+家长管理_学校名称列表_div:
+    css:"body > div:nth-child(6) > div"
+    desc:"学校名称列表"
+
+家长管理_年级_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(2) > span:nth-child(3) > input.combo-text.validatebox-text"
+    desc:"年级"
+    
+家长管理_年级列表_div:
+    css:"body > div:nth-child(7) > div"
+    desc:"年级列表"
+
+家长管理_班级_input:
+    css:"#controlContent > div > form > ul:nth-child(2) > li:nth-child(2) > span:nth-child(6) > input.combo-text.validatebox-text"
+    desc:"班级地区"
+    
+家长管理_班级列表_div:
+    css:"body > div:nth-child(8) > div"
+    desc:"班级列表"
+    
+家长管理_孩子姓名_input:
+    id:"childrenName"
+    desc:"家长姓名"
+    
+家长管理_搜索_span:
+    classname:"l-btn-text"
+    desc:"搜索"
+    
+家长管理_家长列表_table:
+    css:"#control > div.panel.datagrid > div.datagrid-wrap.panel-body > div.datagrid-view > div.datagrid-view2 > div.datagrid-body > table"
+    desc:"家长列表"
+    
+家长管理_家长列表行_tr:
+    tagname:"tr"
+    desc:"家长列表行"
+
+家长管理_查看_a:
+    linktext:"查看"
+    desc:"查看"
+    
+家长管理_锁定_a:
+    linktext:"锁定"
+    desc:"锁定"
+    
+家长管理_解锁_a:
+    linktext:"解锁"
+    desc:"解锁"
+    
+家长管理_锁定确认框_确定_a:
+    linktext:"确定"
+    desc:"确定锁定"
+    
+家长管理_锁定确认框_取消_a:
+    linktext:"取消"
+    desc:"取消锁定"
+
+家长管理_解锁确认框_确定_a:
+    linktext:"确定"
+    desc:"确定解锁"
+    
+家长管理_解锁确认框_取消_a:
+    linktext:"取消"
+    desc:"取消解锁"
+    
+家长管理_提示框_确定_a:
+    linktext:"确定"
+    desc:"确定"
+    
+家长管理_锁定解锁结果提示_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"锁定解锁结果提示"
+    
+家长详情_返回_a:
+    linktext:"返 回"
+    desc:"返回"
+    
+家长详情_ID行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1)"
+    desc:"ID行"
+    
+家长详情_姓名行_li:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(2)"
+    desc:"姓名行"
+    
+家长详情_重置密码_input:
+    css:"#controlContent > div.basicMsg.addMsg.mt40 > ul > li:nth-child(1) > input"
+    desc:"重置密码"
+    
+家长详情_重置密码结果信息_div:
+    css:"body > div.panel.window.messager-window > div.messager-body.panel-body.panel-body-noborder.window-body > div:nth-child(2)"
+    desc:"重置密码结果信息"
+    
+家长详情_提示框_确定_span:
+    classname:"l-btn-text"
+    desc:"确定"

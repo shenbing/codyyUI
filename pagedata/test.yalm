@@ -1,0 +1,249 @@
+#支持id、linktext、classname、xpath、name、css、tagname
+
+登陆用户名:
+ id:"user"
+ desc:登陆用户名
+    
+登陆密码:
+    id:password
+    desc:登陆用户名
+    
+登陆按钮:
+    classname:loginBtn
+    desc:登陆按钮
+    
+作业中心:
+    xpath:"/html/body/div[3]/div[1]/ul/li[3]/a"
+    desc:作业中心
+
+最新动态:
+    xpath:"/html/body/div[3]/div[1]/ul/li[1]/a"
+    desc:最新动态
+    
+动态输入框:
+    id:"pubContent"
+    desc:动态输入框
+
+发表按钮:
+    id:"pubSendBtn"
+    desc:发表按钮
+    
+内容搜索条件:
+    id:selTitle
+    desc:内容搜索条件
+    
+学科:
+    id:selDiscipline
+    desc:学科下拉
+    
+搜索按钮:
+    xpath:"/html/body/div[3]/div[2]/div/ul/li/a"
+    desc:搜索按钮
+    
+作业中心列表:
+    id:otTable
+    desc:作业中心列表
+    
+才艺展示:
+    xpath:"//a[@href='/stxx2/front/art/index.html']"
+    desc:才艺展示
+    
+查看考题:
+ id:"viewQues"
+ desc:查看考题链接
+
+删除考题:
+ id:"delQues"
+ desc:删除考题链接
+ 
+测试中心:
+ xpath:"/html/body/div[3]/div[1]/ul/li[2]/a"
+ desc:测试中心导航栏
+ 
+删除确认框信息:
+ css:".dialog_Inner"
+ desc:"删除确认框中的信息"
+ 
+个人资料链接:
+ linktext:"个人资料"
+ desc:"个人资料链接"
+ 
+资源中心导航栏:
+ linktext:"资源中心"
+ desc:"资源中心导航栏"
+
+修改头像链接:
+ linktext:"修改头像"
+ desc:"修改头像链接"
+ 
+上传图片:
+ name:"file"
+ desc:"上传图片"
+
+删除图片:
+ classname:"close"
+ desc:"删除图片"
+ 
+头像资料:
+ id:"headHeadPic"
+ desc:"头像资料"
+ 
+私信统计:
+ id:"notReadNum"
+ desc:"私信统计"
+ 
+用户管理:
+ linktext:"用户管理"
+ desc:"用户管理"
+ 
+资源中心:
+ linktext:"资源中心"
+ desc:"资源中心"
+ 
+共享资源:
+ linktext:"共享资源"
+ desc:"共享资源"
+ 
+教师管理:
+ linktext:"教师管理"
+ desc:"教师管理"
+ 
+添加教师:
+ linktext:"添加教师"
+ desc:"添加教师"
+ 
+用户名:
+ id:"username"
+ desc:"用户名"
+ 
+姓名:
+ id:"realName"
+ desc:"姓名"
+ 
+手机号码:
+ id:"phoneNum"
+ desc:"手机号码"
+ 
+女:
+ classname:"ml40"
+ desc:"女单选"
+
+生日:
+ css:"body > div.container > div.content > div > div:nth-child(1) > ul > li:nth-child(5) > span > input.combo-text.validatebox-text"
+ desc:"生日"
+
+学段:
+ css:"body > div.container > div.content > div > div:nth-child(2) > ul > li:nth-child(1) > span:nth-child(3) > input.combo-text.validatebox-text"
+ desc:"学段"
+
+年级:
+ css:"body > div.container > div.content > div > div:nth-child(2) > ul > li:nth-child(1) > span:nth-child(6) > input.combo-text.validatebox-text"
+ desc:"年级"
+ 
+班级:
+ css:"body > div.container > div.content > div > div:nth-child(2) > ul > li:nth-child(1) > span:nth-child(9) > input.combo-text.validatebox-text"
+ desc:"班级"
+ 
+身份:
+ css:"body > div.container > div.content > div > div:nth-child(2) > ul > li:nth-child(2) > span > input.combo-text.validatebox-text"
+ desc:"身份"
+ 
+学科:
+ css:"#disciplineDiv > span > input.combo-text.validatebox-text"
+ desc:"学科"
+
+下拉:
+ classname:"combobox-item"
+ desc:"下拉"
+
+职位名称:
+ id:"position"
+ desc:"职位名称"
+ 
+确定:
+ linktext:"确定"
+ desc:"确定"
+ 
+添加:
+ linktext:"+添加"
+ desc:"添加"
+ 
+提示信息:
+ classname:"dialog_Cont"
+ desc:"提示信息"
+ 
+ID:
+ css:".myDialog > div > div > div > span:nth-child(2)"
+ desc:"ID"
+ 
+密码:
+ css:".myDialog > div > div > div > span:nth-child(4)"
+ desc:"密码"
+ 
+提示确定:
+ classname:"dialog_Btns"
+ desc:"提示确定"
+ 
+资源名链接:
+ css:"#contentContainer > div:nth-child(1) > div > ul > li.name > span > a"
+ desc:"资源名链接"
+ 
+资源播放:
+ classname:"videoMask"
+ desc:"资源播放"
+ 
+谁看过我:
+ id:"myRightVisitorListSeeMe"
+ desc:"谁看过我"
+ 
+王老师:
+ linktext:"王老师"
+ desc:"王老师"
+ 
+发布信息:
+ linktext:"发布信息"
+ desc:"发布信息"
+ 
+日期:
+ css:"body > div.container > div.content > div > ul > li:nth-child(5) > span > input.combo-text.validatebox-text"
+ desc:"日期"
+ 
+机构列表行:
+ tagname:"tr"
+ desc:"结构列表行"
+ 
+查看:
+ linktext:"查看"
+ desc:"查看"
+ 
+帐号管理:
+ linktext:"帐号管理"
+ desc:"帐号管理"
+ 
+机构管理:
+ linktext:"机构管理"
+ desc:"机构管理"
+
+信息管理:
+ linktext:"信息管理"
+ desc:"信息管理"
+ 
+统计分析:
+ linktext:"统计分析"
+ desc:"统计分析"
+ 
+上传资源:
+ linktext:"上传资源"
+ desc:"上传资源"
+ 
+教学资源:
+ css:"#addResourceForm > div > div.selectBoxTop > p > label:nth-child(3) > input[type=\"radio\"]"
+ desc:"教学资源"
+ 
+输入框:
+ name:"wd"
+ desc:输入框
+ 
+百度一下:
+ id:"su"
+ desc:百度一下
